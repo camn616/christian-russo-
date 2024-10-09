@@ -1,0 +1,88 @@
+{
+    "ambienti_centrale": {
+        "aule": [
+            {
+                "numero_aula": 1,
+                "sezione": "N",
+                "struttura": {
+                    "numero_luci": 4,
+                    "dimensione": 46,
+                    "presenza_lim": true,
+                    "numero_alunni": 20
+                }
+            },
+            {
+                "numero_aula": 2,
+                "sezione": "L",
+                "struttura": {
+                    "numero_luci": 4,
+                    "dimensione": 50,
+                    "presenza_lim": true,
+                    "numero_alunni": 24
+                }
+            },
+            {
+                "numero_aula": 3,
+                "sezione": "Q",
+                "struttura": {
+                    "numero_luci": 4,
+                    "dimensione": 52,
+                    "presenza_lim": true,
+                    "numero_alunni": 21
+                }
+            }
+        ],
+        "palestra": {
+            "capacità_persone": 150,
+            "n_campi_pallavolo": 3,
+            "n_tavoli_da_pingpong": 6,
+            "n_spogliatoi": 2,
+            "n_luci": 18,
+            "dimensione": 250
+        },
+        "laboratorio_chimica": {
+            "numero_luci": 10,
+            "dimensione": 57,
+            "numero_lavandini": 3,
+            "numero_banchi": 5,
+            "numero_sedie": 20,
+            "strumentazione": {
+                "microscopi": 5,
+                "cucine": 2,
+                "reagenti": [
+                    "acido cloridrico",
+                    "acido solforico",
+                    "naOH"
+                ]
+            }
+        },
+        "laboratorio_informatica": {
+            "numero_postazioni": 20,
+            "numero_luci": 8,
+            "numero_lim": 1,
+            "numero_stampanti": 2,
+            "numero_televisori": 1,
+            "software": [
+                "sistema operativo",
+                "software di programmazione",
+                "software per grafica"
+            ],
+            "accessori": {
+                "mouse": 20,
+                "tastiere": 20,
+                "cuffie": 10
+            }
+        },
+        "bagni": {
+            "numero_bagni": 4,
+            "bagni_uomini": {
+                "numero_cubicles": 2,
+                "numero_lavandini": 2
+            },
+            "bagni_donne": {
+                "numero_cubicles": 2,
+                "numero_lavandini": 2
+            }
+        }
+    }
+}
